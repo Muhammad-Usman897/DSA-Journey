@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     //write first program
-    cout<<"Hello World"<<endl;
+    cout<<"Hello World!"<<endl;
 
     //------ Data types and varibles
     //int 4 bytes
