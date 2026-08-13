@@ -43,11 +43,11 @@ int main(){
 
     }
 
-    for(int row=1;row<=5;row++){
-        for(int col=1;col<=5-row;col++){
-            cout<<"  ";
-        }
-        for(int col=row;col>=1;col--){
+    for(int row=1;row<=5;row++){                //        1
+        for(int col=1;col<=5-row;col++){        //      2 1
+            cout<<"  ";                         //    3 2 1
+        }                                       //  4 3 2 1
+        for(int col=row;col>=1;col--){          //5 4 3 2 1
             cout<<col<<" ";
         }
         cout<<endl;
