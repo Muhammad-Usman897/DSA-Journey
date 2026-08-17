@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+        int n;
+        cout<<"Enter the num: ";
+        cin>>n;
+        int rem,ans=0,mul=1;
+        if(n==0){
+            cout<<1;;
+        }
+        while(n){
+            rem=n%2;
+            rem=rem^1;
+            n/=2;
+            ans=ans+rem*mul;
+            mul*=2;
+        }
+        cout<<ans;
+    }
