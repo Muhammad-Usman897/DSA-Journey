@@ -12,31 +12,31 @@ int main(){
     }
 
     //print number 10 pattern
-    // int row,col;
-    // for(row=1;row<=4;row++){
-    //     for(col=1;col<=5;col++){
-    //         cout<<10<<" ";
-    //     }
-    //     cout<<endl;
-    // }
+    int row,col;
+    for(row=1;row<=4;row++){
+        for(col=1;col<=5;col++){
+            cout<<10<<" ";
+        }
+        cout<<endl;
+    }
 
     //pattern number print 11111 22222 33333 44444 55555
-    // int row,col;
-    // for(row=1;row<=5;row++){
-    //     for(col=1;col<=5;col++){
-    //         cout<<row<<" ";
-    //     }
-    //     cout<<endl;
-    // }
+    int row,col;
+    for(row=1;row<=5;row++){
+        for(col=1;col<=5;col++){
+            cout<<row<<" ";
+        }
+        cout<<endl;
+    }
 
     //pattern number print 12345 12345 12345 12345 12345
-    // int row,col;
-    // for(row=1;row<=5;row++){
-    //     for(col=1;col<=5;col++){
-    //         cout<<col<<" ";
-    //     }
-    //     cout<<endl;
-    // }
+    int row,col;
+    for(row=1;row<=5;row++){
+        for(col=1;col<=5;col++){
+            cout<<col<<" ";
+        }
+        cout<<endl;
+    }
 
     // pattern number print 54321 54321 54321 54321 54321
     int row,col;
