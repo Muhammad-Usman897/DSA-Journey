@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main(){
+    int x=101;
+    int start=1, end=x, ans, mid;
+
+    while(start<=end){
+        mid=start+(end-start)/2;
+
+        if(mid==x/mid){
+            ans=mid;
+            break;
+        }
+        else if(mid<x/mid){
+            ans=mid;
+            start=mid+1;
+        }
+        else 
+        end=mid-1;
+    }
+    cout<<ans;
+}
