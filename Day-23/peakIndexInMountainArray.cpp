@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
 int main(){
+
+    //Find Peak index in Mountain Array
     int arr[]={2,4,5,7,10,14,3,2,1};
     int n=sizeof(arr)/sizeof(arr[0]);
     int start=0, end=n-1, mid, ans;
