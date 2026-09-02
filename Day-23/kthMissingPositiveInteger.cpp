@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    int arr[]={2,3,4,7,13,17};
+    int n=sizeof(arr)/sizeof(arr[0]);
+    int start=0, end=n-1, mid, ans=n, k=9;
+
+    while(start<=end){
+        mid=start+(end-start)/2;
+        if(arr[mid]-mid-1>=k){
+            ans=mid;
+            end=mid-1;
+        }
+        else
+        start=mid+1;
+    }
+    cout<<ans+k;
+}
